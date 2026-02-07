@@ -1,5 +1,19 @@
 [gd_scene format=3 uid="uid://mgp02mkor0at"]
 
+[ext_resource type="PackedScene" uid="uid://d3y32dkqglbyt" path="res://Models+Textures/cart-high.fbx" id="1_cdqbm"]
+[ext_resource type="PackedScene" uid="uid://dmaukjae4fxwv" path="res://Models+Textures/fence-curved.fbx" id="2_imku0"]
+[ext_resource type="PackedScene" uid="uid://dvxces1ifawla" path="res://Models+Textures/fence-gate.fbx" id="3_wlxy5"]
+[ext_resource type="PackedScene" uid="uid://8ppjqmn8eolm" path="res://Models+Textures/rock-wide.fbx" id="4_3v7ru"]
+[ext_resource type="PackedScene" uid="uid://dugpe4udpim4x" path="res://Models+Textures/stall-red.fbx" id="5_tcnuu"]
+[ext_resource type="PackedScene" uid="uid://ckdbx3ri7qyen" path="res://Models+Textures/watermill-wide.fbx" id="6_tuemg"]
+[ext_resource type="PackedScene" uid="uid://cr8fv3l4yk234" path="res://Models+Textures/tree-high-crooked.fbx" id="7_i0g27"]
+[ext_resource type="PackedScene" uid="uid://bhf64wpnlsbvp" path="res://Models+Textures/tree-high-round.fbx" id="8_ealrb"]
+[ext_resource type="PackedScene" uid="uid://dotrs0ebiiv8y" path="res://Models+Textures/tree-crooked.fbx" id="9_jsnrv"]
+[ext_resource type="PackedScene" uid="uid://h0kdui2m8my2" path="res://Models+Textures/tree.fbx" id="10_lggff"]
+[ext_resource type="PackedScene" uid="uid://bm0y1hqjaw42o" path="res://Models+Textures/fountain-center.fbx" id="11_s0gvp"]
+[ext_resource type="PackedScene" uid="uid://b88rmvqphilie" path="res://Models+Textures/poles-horizontal.fbx" id="12_vxd74"]
+[ext_resource type="PackedScene" uid="uid://bpovh03okf02g" path="res://Models+Textures/lantern.fbx" id="13_imku0"]
+
 [sub_resource type="BoxMesh" id="BoxMesh_4xowi"]
 
 [node name="Node3D" type="Node3D" unique_id=1249263396]
@@ -8,74 +22,62 @@
 transform = Transform3D(5.5346546, 0, 0, 0, 0.014876127, 0, 0, 0, 4.957842, 0, 0, 0)
 mesh = SubResource("BoxMesh_4xowi")
 
-[node name="MeshInstance3D2" type="MeshInstance3D" parent="." unique_id=631805229]
-transform = Transform3D(-0.38886952, 0, 0, 0, 0.880988, 0, 0, 0, 2.5286465, 0, 0.3534451, 0)
-mesh = SubResource("BoxMesh_4xowi")
+[node name="cart-high" parent="." unique_id=1474207500 instance=ExtResource("1_cdqbm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8050238, 0, -1.6335603)
 
-[node name="MeshInstance3D3" type="MeshInstance3D" parent="." unique_id=413834757]
-transform = Transform3D(-0.3574422, 0, 0, 0, 0.22472811, 0, 0, 0, 0.394745, 0, 0.8530577, 0)
-mesh = SubResource("BoxMesh_4xowi")
+[node name="fence-curved" parent="." unique_id=969944506 instance=ExtResource("2_imku0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.991768, 0, -1.9731269)
 
-[node name="MeshInstance3D5" type="MeshInstance3D" parent="." unique_id=1300715108]
-transform = Transform3D(-0.3574422, 0, 0, 0, 0.22472811, 0, 0, 0, 0.394745, 0, 0.8530577, 0.5498805)
-mesh = SubResource("BoxMesh_4xowi")
+[node name="fence-gate" parent="." unique_id=1652245982 instance=ExtResource("3_wlxy5")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0.92694294, -1.1920929e-07, -2.8988209)
 
-[node name="MeshInstance3D7" type="MeshInstance3D" parent="." unique_id=1791148910]
-transform = Transform3D(-0.3574422, 0, 0, 0, 0.22472811, 0, 0, 0, 0.394745, 0, 0.8530577, 1.0750127)
-mesh = SubResource("BoxMesh_4xowi")
+[node name="rock-wide" parent="." unique_id=749825174 instance=ExtResource("4_3v7ru")]
+transform = Transform3D(-0.99684435, 0, -0.07938122, 0, 1, 0, 0.07938122, 0, -0.99684435, -0.06723821, 0, -1.67532)
 
-[node name="MeshInstance3D4" type="MeshInstance3D" parent="." unique_id=632862042]
-transform = Transform3D(-0.3574422, 0, 0, 0, 0.22472811, 0, 0, 0, 0.394745, 0, 0.8530577, -0.53470534)
-mesh = SubResource("BoxMesh_4xowi")
+[node name="stall-red" parent="." unique_id=404834348 instance=ExtResource("5_tcnuu")]
+transform = Transform3D(0.15453798, 0, -0.98798686, 0, 1, 0, 0.98798686, 0, 0.15453798, 1.7634124, 0, 1.5591509)
 
-[node name="MeshInstance3D6" type="MeshInstance3D" parent="." unique_id=1981014429]
-transform = Transform3D(-0.3574422, 0, 0, 0, 0.22472811, 0, 0, 0, 0.394745, 0, 0.8530577, -1.0696558)
-mesh = SubResource("BoxMesh_4xowi")
+[node name="watermill-wide" parent="." unique_id=1477033921 instance=ExtResource("6_tuemg")]
+transform = Transform3D(0.062215727, 0, -0.99806273, 0, 1, 0, 0.99806273, 0, 0.062215727, -1.3006682, 0.7738775, 0.21612775)
 
-[node name="MeshInstance3D8" type="MeshInstance3D" parent="." unique_id=130056785]
-transform = Transform3D(1.6998028e-08, 0, -2.5286467, 0, 0.8809881, 0, -0.38886952, 0, -1.1053065e-07, 1.4531497, 0.3534451, -1.0528607)
-mesh = SubResource("BoxMesh_4xowi")
+[node name="tree-high-crooked" parent="watermill-wide" unique_id=1713413785 instance=ExtResource("7_i0g27")]
+transform = Transform3D(0.062215727, 0, 0.99806273, 0, 1, 0, -0.99806273, 0, 0.062215727, -1.1504656, -0.7738775, -0.46174848)
 
-[node name="MeshInstance3D9" type="MeshInstance3D" parent="." unique_id=614821418]
-transform = Transform3D(1.5624295e-08, 0, -0.394745, 0, 0.2247281, 0, -0.3574422, 0, -1.7254852e-08, 1.4531497, 0.8530577, -1.0528607)
-mesh = SubResource("BoxMesh_4xowi")
+[node name="tree-high-round" parent="watermill-wide/tree-high-crooked" unique_id=1839892378 instance=ExtResource("8_ealrb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.2564822, 0, 0.058315158)
 
-[node name="MeshInstance3D10" type="MeshInstance3D" parent="." unique_id=728215958]
-transform = Transform3D(1.5624295e-08, 0, -0.394745, 0, 0.2247281, 0, -0.3574422, 0, -1.7254852e-08, 0.9032692, 0.8530577, -1.0528607)
-mesh = SubResource("BoxMesh_4xowi")
+[node name="tree-crooked" parent="watermill-wide/tree-high-crooked" unique_id=541347751 instance=ExtResource("9_jsnrv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.134099, 0, -0.879948)
 
-[node name="MeshInstance3D11" type="MeshInstance3D" parent="." unique_id=1537200221]
-transform = Transform3D(1.5624295e-08, 0, -0.394745, 0, 0.2247281, 0, -0.3574422, 0, -1.7254852e-08, 0.378137, 0.8530577, -1.0528607)
-mesh = SubResource("BoxMesh_4xowi")
+[node name="tree" parent="watermill-wide/tree-high-crooked" unique_id=279718033 instance=ExtResource("10_lggff")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.2052282, 0, -0.87362206)
 
-[node name="MeshInstance3D12" type="MeshInstance3D" parent="." unique_id=2100212030]
-transform = Transform3D(1.5624295e-08, 0, -0.394745, 0, 0.2247281, 0, -0.3574422, 0, -1.7254852e-08, 1.987855, 0.8530577, -1.0528606)
-mesh = SubResource("BoxMesh_4xowi")
+[node name="tree-crooked2" parent="watermill-wide/tree-high-crooked" unique_id=1381413968 instance=ExtResource("9_jsnrv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.67735946, -2.3841858e-07, 0.3811462)
 
-[node name="MeshInstance3D13" type="MeshInstance3D" parent="." unique_id=1793894252]
-transform = Transform3D(1.5624295e-08, 0, -0.394745, 0, 0.2247281, 0, -0.3574422, 0, -1.7254852e-08, 2.5228055, 0.8530577, -1.0528606)
-mesh = SubResource("BoxMesh_4xowi")
+[node name="tree-high-crooked2" parent="watermill-wide/tree-high-crooked" unique_id=2075785077 instance=ExtResource("7_i0g27")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.08523643, 0, 2.206005)
 
-[node name="MeshInstance3D14" type="MeshInstance3D" parent="." unique_id=1549781636]
-transform = Transform3D(1.6998028e-08, 0, -2.5286467, 0, 0.8809881, 0, -0.38886952, 0, -1.1053065e-07, 1.4531497, 0.3534451, 1.0807042)
-mesh = SubResource("BoxMesh_4xowi")
+[node name="tree2" parent="watermill-wide/tree-high-crooked" unique_id=882050581 instance=ExtResource("10_lggff")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.93771017, 0, 1.6579899)
 
-[node name="MeshInstance3D15" type="MeshInstance3D" parent="." unique_id=1010575053]
-transform = Transform3D(1.5624295e-08, 0, -0.394745, 0, 0.2247281, 0, -0.3574422, 0, -1.7254852e-08, 1.4531497, 0.8530577, 1.0807042)
-mesh = SubResource("BoxMesh_4xowi")
+[node name="fountain-center" parent="." unique_id=383132809 instance=ExtResource("11_s0gvp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.6785166, -0.11067212, 0.26116097)
 
-[node name="MeshInstance3D16" type="MeshInstance3D" parent="." unique_id=792945011]
-transform = Transform3D(1.5624295e-08, 0, -0.394745, 0, 0.2247281, 0, -0.3574422, 0, -1.7254852e-08, 0.9032692, 0.8530577, 1.0807042)
-mesh = SubResource("BoxMesh_4xowi")
+[node name="poles-horizontal" parent="." unique_id=1564991477 instance=ExtResource("12_vxd74")]
+transform = Transform3D(1, 0, 0, 0, -0.5678263, -8.742277e-08, 0, 4.964095e-08, -0.99999994, 2.0028853, 0.3738457, -0.9517178)
 
-[node name="MeshInstance3D17" type="MeshInstance3D" parent="." unique_id=1559906850]
-transform = Transform3D(1.5624295e-08, 0, -0.394745, 0, 0.2247281, 0, -0.3574422, 0, -1.7254852e-08, 0.378137, 0.8530577, 1.0807042)
-mesh = SubResource("BoxMesh_4xowi")
+[node name="poles-horizontal2" parent="." unique_id=1703356688 instance=ExtResource("12_vxd74")]
+transform = Transform3D(1, 0, 0, 0, -0.5678263, -8.742277e-08, 0, 4.964095e-08, -0.99999994, 2.0028853, 0.3738457, 0.07657963)
 
-[node name="MeshInstance3D18" type="MeshInstance3D" parent="." unique_id=1671426175]
-transform = Transform3D(1.5624295e-08, 0, -0.394745, 0, 0.2247281, 0, -0.3574422, 0, -1.7254852e-08, 1.987855, 0.8530577, 1.0807043)
-mesh = SubResource("BoxMesh_4xowi")
+[node name="poles-horizontal3" parent="." unique_id=633473435 instance=ExtResource("12_vxd74")]
+transform = Transform3D(1, 0, 0, 0, -0.5678263, -8.742277e-08, 0, 4.964095e-08, -0.99999994, 2.0028853, 0.3738457, 1.1098127)
 
-[node name="MeshInstance3D19" type="MeshInstance3D" parent="." unique_id=1085907261]
-transform = Transform3D(1.5624295e-08, 0, -0.394745, 0, 0.2247281, 0, -0.3574422, 0, -1.7254852e-08, 2.5228055, 0.8530577, 1.0807043)
-mesh = SubResource("BoxMesh_4xowi")
+[node name="lantern" parent="." unique_id=866191548 instance=ExtResource("13_imku0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6814916, 1.1920929e-07, 2.2542908)
+
+[node name="lantern2" parent="." unique_id=912146528 instance=ExtResource("13_imku0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.676106, 0, -0.037587464)
+
+[node name="lantern3" parent="." unique_id=203319835 instance=ExtResource("13_imku0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.598746, 0, -2.2950957)
