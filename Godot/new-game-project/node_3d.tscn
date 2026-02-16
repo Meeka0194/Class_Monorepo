@@ -13,6 +13,8 @@
 [ext_resource type="PackedScene" uid="uid://bm0y1hqjaw42o" path="res://Models+Textures/fountain-center.fbx" id="11_s0gvp"]
 [ext_resource type="PackedScene" uid="uid://b88rmvqphilie" path="res://Models+Textures/poles-horizontal.fbx" id="12_vxd74"]
 [ext_resource type="PackedScene" uid="uid://bpovh03okf02g" path="res://Models+Textures/lantern.fbx" id="13_imku0"]
+[ext_resource type="Script" uid="uid://cb45ok3nb3vcj" path="res://caller.gd" id="14_3v7ru"]
+[ext_resource type="Script" uid="uid://b1kwscspjh661" path="res://receiver.gd" id="15_tcnuu"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_4xowi"]
 
@@ -81,3 +83,12 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.676106, 0, -0.037587464)
 
 [node name="lantern3" parent="." unique_id=203319835 instance=ExtResource("13_imku0")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.598746, 0, -2.2950957)
+
+[node name="Caller" type="Node3D" parent="." unique_id=146509652 node_paths=PackedStringArray("receiver")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6807894, 0.44190007, 0)
+script = ExtResource("14_3v7ru")
+receiver = NodePath("../Receiver")
+
+[node name="Receiver" type="Node3D" parent="." unique_id=433761715]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1468607, 0.45164764, 0)
+script = ExtResource("15_tcnuu")
