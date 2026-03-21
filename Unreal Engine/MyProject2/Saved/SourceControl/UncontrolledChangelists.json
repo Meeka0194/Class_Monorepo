@@ -183,7 +183,22 @@
 				"S:/Unity/Projects/GameEngineFundementals/Class_Monorepo/Unreal Engine/MyProject2/Content/Meshes/FBX_format/watermill.uasset",
 				"S:/Unity/Projects/GameEngineFundementals/Class_Monorepo/Unreal Engine/MyProject2/Content/Meshes/FBX_format/watermill-wide.uasset",
 				"S:/Unity/Projects/GameEngineFundementals/Class_Monorepo/Unreal Engine/MyProject2/Content/Meshes/FBX_format/wheel.uasset",
-				"S:/Unity/Projects/GameEngineFundementals/Class_Monorepo/Unreal Engine/MyProject2/Content/Meshes/FBX_format/windmill.uasset"
+				"S:/Unity/Projects/GameEngineFundementals/Class_Monorepo/Unreal Engine/MyProject2/Content/Meshes/FBX_format/windmill.uasset",
+				"S:/Unity/Projects/GameEngineFundementals/Class_Monorepo/Unreal Engine/MyProject2/Content/IMC_Palyer.uasset",
+				"S:/Unity/Projects/GameEngineFundementals/Class_Monorepo/Unreal Engine/MyProject2/Content/IA_Attack.uasset",
+				"S:/Unity/Projects/GameEngineFundementals/Class_Monorepo/Unreal Engine/MyProject2/Content/ThirdPerson/MI_ThirdPersonColWay.uasset",
+				"S:/Unity/Projects/GameEngineFundementals/Class_Monorepo/Unreal Engine/MyProject2/Content/LevelPrototyping/Meshes/SM_ChamferCube.uasset",
+				"S:/Unity/Projects/GameEngineFundementals/Class_Monorepo/Unreal Engine/MyProject2/Content/LevelPrototyping/Meshes/SM_Cylinder.uasset",
+				"S:/Unity/Projects/GameEngineFundementals/Class_Monorepo/Unreal Engine/MyProject2/Content/LevelPrototyping/Meshes/SM_QuarterCylinder.uasset",
+				"S:/Unity/Projects/GameEngineFundementals/Class_Monorepo/Unreal Engine/MyProject2/Content/LevelPrototyping/Interactable/Target/Assets/SM_TargetBaseMesh.uasset",
+				"S:/Unity/Projects/GameEngineFundementals/Class_Monorepo/Unreal Engine/MyProject2/Content/LevelPrototyping/Interactable/JumpPad/Assets/Meshes/SM_CircularBand.uasset",
+				"S:/Unity/Projects/GameEngineFundementals/Class_Monorepo/Unreal Engine/MyProject2/Content/LevelPrototyping/Interactable/JumpPad/Assets/Meshes/SM_CircularGlow.uasset",
+				"S:/Unity/Projects/GameEngineFundementals/Class_Monorepo/Unreal Engine/MyProject2/Content/LevelPrototyping/Interactable/Door/Assets/Meshes/SM_Door.uasset",
+				"S:/Unity/Projects/GameEngineFundementals/Class_Monorepo/Unreal Engine/MyProject2/Content/LevelPrototyping/Interactable/Door/Assets/Meshes/SM_DoorFrame_Corner.uasset",
+				"S:/Unity/Projects/GameEngineFundementals/Class_Monorepo/Unreal Engine/MyProject2/Content/LevelPrototyping/Interactable/Door/Assets/Meshes/SM_DoorFrame_Edge.uasset",
+				"S:/Unity/Projects/GameEngineFundementals/Class_Monorepo/Unreal Engine/MyProject2/Content/BP_Gamemode.uasset",
+				"S:/Unity/Projects/GameEngineFundementals/Class_Monorepo/Unreal Engine/MyProject2/Content/LevelPrototyping/Meshes/SM_SM_ChamferCube.uasset",
+				"S:/Unity/Projects/GameEngineFundementals/Class_Monorepo/Unreal Engine/MyProject2/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
 			]
 		}
 	]
